@@ -21,7 +21,7 @@
     <header class="navbar-section">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><i class="bi bi-chat"></i> Brag Spot</a>
+                <a class="navbar-brand" href="#"><i class="bi bi-chat"></i> AppV1</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -53,7 +53,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12 text-content">
                     <h1>DGIN5201</h1>
-                    <p>We build effective strategies to help you reach customers and prospects across the entire web.
+                    <p>We build effective strategies to help you manage your health in a digital and less clumsy way.
                     </p>
                     <button class="btn"><a href="#">Give your consent now!</a></button>
                 </div>
@@ -91,10 +91,8 @@
                             <div class="card">
                                 <img src="images/brand.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h4 class="card-title">Branding</h4>
-                                    <p class="card-text">Brand identity represents the visual elements and assets
-                                        that
-                                        distinguish a brand.</p>
+                                    <h4 class="card-title">Appointments</h4>
+                                    <p class="card-text">Appointments booking with the doctors.</p>
                                 </div>
                             </div>
                         </div>
@@ -107,10 +105,9 @@
                             <div class="card">
                                 <img src="images/ux.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h4 class="card-title">UI/UX Design</h4>
-                                    <p class="card-text">UI/UX design services focus on creating intuitive &
-                                        user-centric
-                                        interfaces for digital products.</p>
+                                    <h4 class="card-title">Health records</h4>
+                                    <p class="card-text"> services focus on creating intuitive &
+                                        user-centric interfaces for digital health records.</p>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +116,7 @@
                             <div class="card">
                                 <img src="images/app-development.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h4 class="card-title">Development</h4>
+                                    <h4 class="card-title">Support</h4>
                                     <p class="card-text">A concept is brought to life through the services various
                                         stages, such
                                         as planning, testing and deployment.</p>
@@ -162,80 +159,6 @@
         </div>
     </section>
 
-    <!-- project section  -->
-
-    <section class="project-section" id="projects">
-        <div class="container">
-            <div class="row text">
-                <div class="col-lg-6 col-md-12">
-                    <h3>our works</h3>
-                    <h1>Our latest project</h1>
-                    <hr>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <p>We build product close to our heart. We make your idea to really and make your dream successful
-                        with awesome experience.</p>
-                </div>
-            </div>
-            <div class="row project">
-
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="card">
-                        <img src="images/project1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div class="text">
-                                <h4 class="card-title">SaaS Website</h4>
-                                <p class="card-text">Development. Jan 19,2022</p>
-                                <button>see project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="card">
-                        <img src="images/project2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div class="text">
-                                <h4 class="card-title">Travel Website</h4>
-                                <p class="card-text">UI/UX Jun 29,2023</p>
-                                <button>see project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="card">
-                        <img src="images/project3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div class="text">
-                                <h4 class="card-title">Travel Website</h4>
-                                <p class="card-text">UI/UX Aug 9,2021</p>
-                                <button>see project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="card">
-                        <img src="images/project4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div class="text">
-                                <h4 class="card-title">SaaS Website</h4>
-                                <p class="card-text">Development. May 25 ,2022</p>
-                                <button>see project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
 
     <!-- contact section  -->
 
