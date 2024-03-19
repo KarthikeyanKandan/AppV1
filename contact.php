@@ -52,7 +52,7 @@
   }
   $pdfcontent .= "</tbody></table>";
   $mpdf->WriteHTML(utf8_encode($pdfcontent));
-  $mpdf->Output('formdata.pdf', 'D');
+  $mpdf->Output('consent.pdf', 'D');
 ?>
 
         </div>
