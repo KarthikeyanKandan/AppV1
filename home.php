@@ -86,8 +86,8 @@ if (!isset($_SESSION['username'])) {
                         </li>
                         <li class="nav-item">
                             <div class="lang_switcher">
-                            <button id="en" class="lang">EN</button>
-                            <button id="fr" class="lang">FR</button>
+                            <button id="translate" class="lang">EN</button>
+                            <button id="translate" class="lang">FR</button>
                             </div>
                         </li>
 <div style="clear:both;"></div>

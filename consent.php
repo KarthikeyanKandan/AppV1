@@ -39,9 +39,10 @@
                         </li>
                         <li class="nav-item">
                             <div class="lang_switcher">
-                            <button id="en" class="lang">EN</button>
-                            <button id="fr" class="lang">FR</button>
-                            </div>
+                                <form action='consent-fr.php'>
+                            <button id="translate" class="lang">FR</button>
+</form>
+                        </div>
                         </li>
 <div style="clear:both;"></div>
                     </ul>
