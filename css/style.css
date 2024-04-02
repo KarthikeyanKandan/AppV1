@@ -138,6 +138,12 @@
 }
 
 
+canvas#signature {
+    border: 2px solid black;
+  }
+  form>* {
+    margin: 10px;
+  }
 
 .services-section .services .row1 {
     margin-bottom: 40px;
@@ -531,6 +537,7 @@ footer p {
     border-radius: 50%;
     font-size: 50px;
 }
+
 
 @media (max-width:700px) {
 

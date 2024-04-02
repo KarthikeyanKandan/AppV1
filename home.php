@@ -27,6 +27,7 @@ if (!isset($_SESSION['username'])) {
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
 
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
 </head>
 
 <body>
@@ -83,6 +84,13 @@ if (!isset($_SESSION['username'])) {
                             </div>
 
                         </li>
+                        <li class="nav-item">
+                            <div class="lang_switcher">
+                            <button id="en" class="lang">EN</button>
+                            <button id="fr" class="lang">FR</button>
+                            </div>
+                        </li>
+<div style="clear:both;"></div>
                     </ul>
                 </div>
             </div>
@@ -122,46 +130,28 @@ if (!isset($_SESSION['username'])) {
 
             <div class="row gy-4">
 
-                <h1>Consent form</h1>
+                <h1>HSNS Consent form</h1>
                 
 
-                </div>
 
                 <div class="col-lg-6 form" style="width: 100%;">
-                    <form action="contact.php" method="post" class="php-email-form">
-                        <div class="row gy-4">
-
-                            <div class="col-md-6">
-                                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                            </div>
-
-                            <div class="col-md-6 ">
-                                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-                            </div>
-
-                            <div class="col-md-12">
-                                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
-                            </div>
-
-                            <div class="col-md-12">
-                                <textarea class="form-control" name="message" rows="5" placeholder="Message"
-                                    required></textarea>
-                            </div>
-
-                            <div class="col-md-12 text-center">
-                                <button type="submit">give consent</button>
+                <form action="consent.php">
+                    <button type="submit">give consent</button>
+</form>
                             </div>
 
                         </div>
-                    </form>
+            
 
                 </div>
 
             </div>
 
         </div>
+        
+        
     </section>
-
+    
     <!-- footer section  -->
 
     <footer>
