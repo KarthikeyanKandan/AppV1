@@ -37,5 +37,5 @@
 - Create a DataBase as login in phpMyAdmin.
 - Create users table in phpMyAdmin.
 - Change the username and password in connection.php file to root.
-- Import the [login_system.sql](loginsystem.sql) file in the phpMyAdmin.
+- Import the [login.sql](login.sql) file in the phpMyAdmin.
 - Run server and access via localhost.
